@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #f4f2fa;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .icon {
+    width: 16px;
+    height: 8px;
+  }
+  .burger{display:none}
+  @media (max-width: 1100px) {
+    gap: 10px;
+  }
+  @media (max-width: 800px) {
+    display: none;
+    .burger{display: flex;}
+    
+  }
+}

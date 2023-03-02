@@ -1,0 +1,38 @@
+.wrapper {
+  padding-top: 128px;
+  background-color: white;
+  .title {
+    height: 48px;
+    font-family: "Tiempos Headline";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000033;
+    padding-bottom: 48px;
+    text-align: center;
+    margin: 0;
+  }
+  .partners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 48px;
+    margin-bottom: 110px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 32px;
+
+    @media (max-width: 550px) {
+      justify-content: flex-start;
+    }
+  }
+  @media (max-width: 1200px) {
+    .title {
+      font-size: 32px;
+    }
+    img {
+      width: 100px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.wrap {
+  padding-left: 144px;
+  position: relative;
+
+  @media (max-width: 1200px) {
+    padding: 0 30px;
+  }
+
+  @media (max-width: 550px) {
+    padding: 0 16px;
+  }
+}
+
+.bgImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  max-width: 750px;
+
+  @media (max-width: 900px) {
+    max-width: 525px;
+  }
+
+  @media (max-width: 750px) {
+    max-width: 425px;
+  }
+
+  @media (max-width: 550px) {
+    max-width: 270px;
+  }
+}
